@@ -6,14 +6,14 @@
 
 class PHPSDKTestCase extends PHPUnit_Framework_TestCase
 {
-  const APP_ID = '117743971608120';
-  const SECRET = '943716006e74d9b9283d4d5d8ab93204';
+  const APP_ID = '';
+  const SECRET = '';
 
-  const MIGRATED_APP_ID = '174236045938435';
-  const MIGRATED_SECRET = '0073dce2d95c4a5c2922d1827ea0cca6';
+  const MIGRATED_APP_ID = '';
+  const MIGRATED_SECRET = '';
 
   private static $VALID_EXPIRED_SESSION = array(
-    'access_token' => '117743971608120|2.vdCKd4ZIEJlHwwtrkilgKQ__.86400.1281049200-1677846385|NF_2DDNxFBznj2CuwiwabHhTAHc.',
+    'access_token' => '|2.vdCKd4ZIEJlHwwtrkilgKQ__.86400.1281049200-1677846385|NF_2DDNxFBznj2CuwiwabHhTAHc.',
     'expires'      => '1281049200',
     'secret'       => 'u0QiRGAwaPCyQ7JE_hiz1w__',
     'session_key'  => '2.vdCKd4ZIEJlHwwtrkilgKQ__.86400.1281049200-1677846385',
