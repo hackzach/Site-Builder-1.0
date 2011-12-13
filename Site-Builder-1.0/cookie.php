@@ -7,7 +7,7 @@ Array
     [algorithm] => HMAC-SHA256
     [expires] => 1294495200
     [issued_at] => 1294491469
-    [oauth_token] => 177894922232847|2.Uxu7ImpHJct0lZxTm9gx2Q__.3600.1294495200-1484931720|FmC53VGKLLZxvq1yd6oeBxkzuzc
+    [oauth_token] => 
     [registration] => Array
         (
             [name] => Snzakk Sczack
@@ -67,5 +67,5 @@ function get_facebook_cookie($app_id, $application_secret) {
   return $args;
 }
 
-$cookie = get_facebook_cookie("177894922232847", "6e987ae3f1172c066b7f67f631c5e01c");
+$cookie = get_facebook_cookie("id", "secret");
 ?>
