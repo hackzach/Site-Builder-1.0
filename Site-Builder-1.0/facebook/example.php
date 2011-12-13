@@ -1,7 +1,7 @@
 <?php
 
-define('FACEBOOK_APP_ID', '177894922232847');
-define('FACEBOOK_SECRET', '6e987ae3f1172c066b7f67f631c5e01c');
+define('FACEBOOK_APP_ID', 'app id');
+define('FACEBOOK_SECRET', 'arghh');
 
 function get_facebook_cookie($app_id, $application_secret) {
   $args = array();
@@ -29,7 +29,7 @@ $cookie = get_facebook_cookie(FACEBOOK_APP_ID, FACEBOOK_SECRET);
     <?php if ($cookie) { ?>
       <iframe src="http://www.facebook.com/plugins/registration.php?
              client_id=177894922232847&
-             redirect_uri=http://www.rwavechicago.com/facebook/create.php&
+             redirect_uri=http://create.php&
              fields=name,birthday,gender,location,email"
         scrolling="auto"
         frameborder="no"
