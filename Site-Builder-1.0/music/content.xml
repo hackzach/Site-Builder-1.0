@@ -1,0 +1,24 @@
+
+<rss version="2.0" xmlns:jwplayer="http://developer.longtailvideo.com/">
+  <channel>
+	<title>RWave Chicago</title>
+
+		<item>
+			<title>Bloodstain</title>
+			<jwplayer:author>UNKLE</jwplayer:author>
+
+			<jwplayer:file>http://www.rwavechicago.com/music/1.mp3</jwplayer:file />
+		</item>
+		<item>
+			<title>King Crimson</title>
+			<jwplayer:author>King Crimson</jwplayer:author>
+			<jwplayer:file>http://www.rwavechicago.com/music/2.ogg</jwplayer:file />
+		</item>
+
+		<item>
+			<title>No Quarter Elfmt mix</title>
+			<jwplayer:author>Elfmt base Led Zepplin</jwplayer:author>
+			<jwplayer:file>http://www.rwavechicago.com/music/572817251.0000001.mp3</jwplayer:file />
+		</item>
+  </channel>
+</rss>

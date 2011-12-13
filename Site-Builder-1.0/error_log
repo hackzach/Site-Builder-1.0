@@ -1,0 +1,7 @@
+[30-Jul-2008 14:16:27] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/zacharyp/public_html/image.php on line 36
+[30-Jul-2008 14:16:31] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/zacharyp/public_html/image.php on line 36
+[30-Jul-2008 14:16:34] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/zacharyp/public_html/image.php on line 36
+[30-Jul-2008 14:16:39] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/zacharyp/public_html/image.php on line 36
+[08-Dec-2008 12:09:47] PHP Fatal error:  Call to undefined function  noparse() in /home/zacharyp/public_html/test_code.php on line 55
+[10-Dec-2008 13:23:13] PHP Warning:  include(../site_include.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/zacharyp/public_html/test_code.php(46) : eval()'d code on line 1
+[10-Dec-2008 13:23:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../site_include.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zacharyp/public_html/test_code.php(46) : eval()'d code on line 1
