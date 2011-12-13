@@ -1,8 +1,8 @@
 <?php
 require "facebook.php";
 
-define('FACEBOOK_APP_ID', '177894922232847');
-define('FACEBOOK_SECRET', '6e987ae3f1172c066b7f67f631c5e01c');
+define('FACEBOOK_APP_ID', 'app id');
+define('FACEBOOK_SECRET', 'arghh');
   /*
       * PHP SDK does not work due to libcurl not ssl compatible. A new domain should have this avail
 
@@ -63,7 +63,7 @@ function base64_url_decode($input) {
   $token = file_get_contents("https://graph.facebook.com/oauth/access_token?
     client_id=177894922232847&
     redirect_uri=http://wavelength.host56.com/facebook/create.php&
-    client_secret=6e987ae3f1172c066b7f67f631c5e01c&
+    client_secret=blahblahblah&
     code=" . $_REQUEST['code']);
   }
 
@@ -78,7 +78,7 @@ function base64_url_decode($input) {
 <script src="http://connect.facebook.net/en_US/all.js"></script>
  <script>
   window.fbAsyncInit = function() {
-    FB.init({appId  : '177894922232847', status : true, cookie : true, xfbml : true });
+    FB.init({appId  : 'app id', status : true, cookie : true, xfbml : true });
 	
     FB.getLoginStatus(function(response) {
       if (response.session) {
