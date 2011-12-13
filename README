@@ -1,0 +1,12 @@
+This code repository is only a prototype. Many of the coding practices used inside are bad practice, buggy, or 
+plain wrong. However, much understandings of development can come from seeing how other people develop, therefore it is
+valuable to see even "bad" code. But be warned, this code is not meant for production. Study it. Play with it. Enjoy it. 
+But don't expect it to run out of the box, because it won't. I will also post the beta version when I have finished securing 
+testing it, and the current version is modularized. This one isn't. Have fun, but remember that if you were to try to use
+some of the practices I used back then, many companies would laugh at you(maybe not, but this definately is not the best
+method to develop under). 
+
+I posted this so that those who do want to learn can see what a "project" looks like, look at code and say, "That looks
+Horrible. I think I could do it better THIS way." and we can argue which methods would be best, and why. 
+
+If you want to get further information, contact me at zacharyp dot com at gmail dot com, or through Github. 
