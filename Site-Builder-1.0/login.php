@@ -57,7 +57,7 @@ $result = q("SELECT * FROM users WHERE id='".$id."'");
 
 else if(isset($_REQUEST['join'])) {
 
-$response = parse_signed_request($_REQUEST['signed_request'], "6e987ae3f1172c066b7f67f631c5e01c");
+$response = parse_signed_request($_REQUEST['signed_request'], "sloppp");
 
 $result = q("SELECT * FROM users WHERE id='" . $id . "'");
 	if (dbcount($result)) echo "<script>window.location='profile.php'</script />";
