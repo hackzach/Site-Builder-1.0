@@ -1,4 +1,3 @@
-
 <?php
 define("Profile", "true");
 include "connect.php";
@@ -16,7 +15,7 @@ makenav($id, $logoutUrl);
 <script src="http://connect.facebook.net/en_US/all.js"></script>
  <script>
   window.fbAsyncInit = function() {
-    FB.init({appId  : '177894922232847', status : true, cookie : true, xfbml : true });
+    FB.init({appId  : 'forgot about this app id', status : true, cookie : true, xfbml : true });
 	
 
   
