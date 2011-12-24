@@ -4,8 +4,8 @@ require "facebook.php";
 include "connect.php";
 include "site_include.php";
 
-define('FACEBOOK_APP_ID', '177894922232847');
-define('FACEBOOK_SECRET', '6e987ae3f1172c066b7f67f631c5e01c');
+define('FACEBOOK_APP_ID', 'blah');
+define('FACEBOOK_SECRET', 'blah');
   /*
       * PHP SDK does not work due to libcurl not ssl compatible. A new domain should have this avail
 
