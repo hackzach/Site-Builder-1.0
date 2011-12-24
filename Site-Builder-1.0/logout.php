@@ -14,7 +14,7 @@ header("Location: index.php");
 	<script src="http://connect.facebook.net/en_US/all.js"></script>
 	<script>
 		window.fbAsyncInit = function() {
-			FB.init({appId  : '177894922232847', status : true, cookie : true, xfbml : true });
+			FB.init({appId  : 'blah', status : true, cookie : true, xfbml : true });
 
 
 			FB.logout(function response() {
