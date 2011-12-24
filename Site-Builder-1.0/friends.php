@@ -15,7 +15,7 @@ include "foot.php";
 
 	   <script>
   window.fbAsyncInit = function() {
-    FB.init({appId  : '177894922232847', status : true, cookie : true, xfbml : true });
+    FB.init({appId  : 'balrg', status : true, cookie : true, xfbml : true });
 
  FB.Event.subscribe('auth.login', function(response) {
         window.location.reload();
